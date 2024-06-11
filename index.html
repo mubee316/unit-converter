@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>unit converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form action="">
+    <h2>Temperature <br>conversion : </h2>
+
+
+    <input type="text" required id="textBox" value="0"><br><br>
     
+
+    <input type="radio" id="toFahrenheit">
+    <label for="toFahrenheit" >Celsius To Fahrenheit</label><br><br>
+ 
+    <input type="radio" id="toCelsius">
+    <label for="toCelsius" >Fahrenheit To Celsius</label><br><br>
+
+    <button onclick="convert()">Submit</button>
+    <p id="result"></p>
+    </form>
 </body>
 </html>
